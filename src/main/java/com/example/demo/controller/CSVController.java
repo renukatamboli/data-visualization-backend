@@ -24,7 +24,7 @@ public class CSVController {
 
 
 	public CSVController(CSVService csvService) {
-		csvService = this.csvService;
+		this.csvService = csvService;
 	}
 	
 	
